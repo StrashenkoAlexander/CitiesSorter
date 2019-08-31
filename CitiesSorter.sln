@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CitiesSorter", "CitiesSorter\CitiesSorter.csproj", "{F5EC0CE5-61D6-4E61-810C-CF9B7429B522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5EC0CE5-61D6-4E61-810C-CF9B7429B522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EC0CE5-61D6-4E61-810C-CF9B7429B522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EC0CE5-61D6-4E61-810C-CF9B7429B522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EC0CE5-61D6-4E61-810C-CF9B7429B522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8DAB6FE-B9DB-474D-8416-5878BC7590F9}
+	EndGlobalSection
+EndGlobal
