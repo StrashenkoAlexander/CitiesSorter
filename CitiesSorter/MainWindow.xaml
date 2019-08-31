@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CitiesSorter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Cities Sorter" Height="295.864" Width="563.77">
+    <Grid Background="#FFE4E4E4" Grid.ColumnSpan="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel Grid.Column="0">
+            <Grid Grid.ColumnSpan="2">
+
+                <StackPanel Margin="5" Orientation="Horizontal">
+                    <Button Name="Open_Button" Background="White" Padding="3,0" Height="22" Content="Open" Click="Open_Button_Click"/>
+                    <Label Name="File_Label" Content="fileName.txt"/>
+                </StackPanel>
+            </Grid>
+            <Grid Height="2" Background="#FF636262"/>
+            <Grid Background="#FFE4E4E4">
+
+                <StackPanel Margin="5" Orientation="Horizontal">
+                    <Button Name="Process_Button" IsEnabled="False" Background="LimeGreen" Padding="3,0" Height="22" Content="Process" Click="Process_Button_Click"/>
+                </StackPanel>
+            </Grid>
+            <Grid Height="2" Background="#FF636262"/>
+            <Grid Background="#FFE4E4E4">
+
+                <StackPanel Margin="5" Orientation="Horizontal">
+                    <Button Name="Save_Button" IsEnabled="False" Background="White" Padding="3,0" Height="22" Content="Save as" Click="Save_Button_Click"/>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+
+
+        <TextBlock Background="White" Grid.Column="1" Name="TextDisplay" Margin="2" TextWrapping="Wrap"/>
+        
         
     </Grid>
 </Window>
